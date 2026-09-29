@@ -1,8 +1,37 @@
+# Python 缓存
 __pycache__/
 *.py[cod]
+
+# 虚拟环境
 .venv/
 venv/
-.idea/
+env/
+
+# 编辑器配置
 .vscode/
+.idea/
+
+# 临时文件
+temp/
+tmp/
+debug/
+*.tmp
+*.log
+*.bak
+~$*.docx
+
+# 下载的依赖和安装包
+packages/
+*.whl
+
+# 系统文件
 Thumbs.db
 .DS_Store
+
+# 大型数据集，只保留说明
+datasets/*
+!datasets/README.md
+
+# 不准备上传的私人课程资料
+notes/录音/
+references/
